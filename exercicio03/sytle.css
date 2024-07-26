@@ -2,6 +2,7 @@
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #d3d3d3 ;
+    padding: 50px 50px 50px 50px;
 }
 
 .enunciado{
@@ -16,13 +17,13 @@ hr{
 
 input[type=text] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 10px ;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
 }
 
-input[type=submit]{
+button[type=button] {
     width: 100%;
     background-color: #3d3bc0;
     color: white;
@@ -33,7 +34,7 @@ input[type=submit]{
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+button[type=button]:hover {
     background-color: #1b8294;
 }
 
