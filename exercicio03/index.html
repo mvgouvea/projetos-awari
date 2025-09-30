@@ -7,9 +7,30 @@
     <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
+    <div class="corpo">
+    <div class="enunciado">
+        Nesta prática, criaremos um formulário de contato usando HTML, CSS e Javascript. As tarefas são:
+
+        <p>Criar um formulário de contato em HTML contendo os campos nome, email, mensagem e um botão “Enviar”;
+        <li>
+            Garantir que, quando o usuário pressionar o botão “Enviar” do formulário, a aplicação exiba na tela uma janela de alerta com os dados preenchidos ( deve-se usar JavaScript para implementar este comportamento);
+        </li>
+        <li>
+            O formulário deverá estar centralizado na tela (deve-se usar CSS para tratar o estilo).
+        </li>
+        <li>
+            Após a prática, procure replicá-la por conta própria (fique à vontade para incrementá-la), suba o código no seu GitHub e compartilhe o link do repositório por meio do campo “Anexar Tarefa”, abaixo.
+        </li>
+        <p>
+            Caso tenha dúvidas ou problemas com a prática, peça ajuda ao instrutor ou tente estudá-la junto de seu mentor.
+            </p>
+    </div>
+    <hr>
+ 
     <form action="">
+        <h3>Cadastro</h3>
         <div class="Formulario">
-            <label for="name">Nome</label>
+            <label class="form" for="name">Nome</label>
             <input type="text" id="name" required placeholder="Digite o seu nome">
 
             <label for="email">E-mail</label>
@@ -18,9 +39,15 @@
             <label for="msg">Mensagem</label>
             <input type="text" name="msg" id="msg" required placeholder="Digite sua mensagem">
 
-            <button  >Enviar</button>
+            <button type="button" onclick="enviarCadastro()">Cadastrar</button>
+          
+            
+           
         </div>
     </form>
+
+    </div>
+
     <footer>
         <script src="script.js"></script>
         <script
